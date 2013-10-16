@@ -2,11 +2,11 @@
 
 /*
 Plugin Name: Flag Counter Widget
-Plugin URI: http://www.amidalla.de/free_counter_geo_location.htm
+Plugin URI: http://www.flags.es
 Description: Javascript based Flag Counter Widget
 Version: 1
 Author: Holger Deschakovski
-Author URI: http://www.amidalla.de
+Author URI: http://www.flags.es
 License: GPL2
 */
 
@@ -96,7 +96,7 @@ class Flag_Counter_Widget extends WP_Widget {
 
 		/* Set up some default widget settings. */
 
-                $amidallaCode = '<!--Amidalla Geo Counter Start-->
+                $amidallaCode = '<!--Flags.es Flag Counter Start-->
 <script type="text/javascript">
  <!--//
  ami_v = 13; // no. of visitors to display, max. no.: 200.
@@ -113,11 +113,11 @@ class Flag_Counter_Widget extends WP_Widget {
  ami_d = "1"; // format the display in columns, no. of columns.
  //-->
 </script>
-<script type="text/javascript" src="http://www.amidalla.de/geoip/amiip.js"></script>
-<!--Amidalla Geo Counter End-->';
+<script type="text/javascript" src="http://www.flags.es/geoip/amiip.js"></script>
+<!--Flags.es Flag Counter End-->';
 
 
-		$defaults = array( 'title' => __('amidalla.de - Flag Counter', 'flagcounter'), 'textarea' => __($amidallaCode, 'flagcounter1') );
+		$defaults = array( 'title' => __('www.flags.es - Flag Counter', 'flagcounter'), 'textarea' => __($amidallaCode, 'flagcounter1') );
 		$instance = wp_parse_args( (array) $instance, $defaults ); ?>
 
 
