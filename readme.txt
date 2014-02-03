@@ -2,7 +2,7 @@
 Contributors: Holger Deschakovski
 Tags: counter, website, blog, geo, geo location, widget, widgets, flag counter, besucherzähler, flaggen, geo ip
 Requires at least: 2.8
-Tested up to: 3.5.1
+Tested up to: 3.8.1
 
 Display an Javascript based Flag Counter in an Widget.
 
