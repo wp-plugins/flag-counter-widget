@@ -40,7 +40,7 @@ class Flag_Counter_Widget extends WP_Widget {
 	 */
 	function Flag_Counter_Widget() {
 		/* Widget settings. */
-		$widget_ops = array( 'classname' => 'flagcounter', 'description' => 'Display an Javascript based Flag Counter. If you like this Counter please rate it at https://wordpress.org/plugins/flag-counter-widget/. Thank you.' );
+		$widget_ops = array( 'classname' => 'flagcounter', 'description' => 'Display an Javascript based Flag Counter.' );
 
 		/* Widget control settings. */
 		$control_ops = array( 'width' => 600 );
