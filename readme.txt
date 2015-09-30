@@ -15,6 +15,9 @@ visited Page and referring Page.
 Alternatively, display the Countries with Visitors Numbers.
 More Information at http://www.flags.es
 
+If you like the Flag Counter please rate it at https://wordpress.org/plugins/flag-counter-widget/
+Thank you :)
+
 == Installation ==
 
 1. Upload to the `/wp-content/plugins/` directory
